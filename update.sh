@@ -28,7 +28,7 @@ fetch followers .followers .user.json
 
 cat > README.md << EOF
 # $name
-<style>th {display: none;}</style>
+
 |||
 -|-
 Repositories | [$repos](https://github.com/$1?tab=repositories)
