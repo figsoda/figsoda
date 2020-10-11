@@ -1,0 +1,33 @@
+name: update
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  update:
+    name: update
+    runs-on: ubuntu-latest  
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Update README.md
+        shell: bash
+        run: update.sh figsoda
+      
+      - name: Commit changes
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "action@github.com"
+          git add README.md
+          git commit -m "GitHub Actions"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ github.token }}
+          branch: main
