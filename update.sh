@@ -38,7 +38,7 @@ Total forks | $forks
 Commits | $commits
 Issues | $issues
 Pull requests | $prs
-Followers | $followers
+Followers | [$followers](https://github.com/$1?tab=followers)
 
 <sub>Last updated: $(date -u "+%F %T UTC")</sub>
 EOF
