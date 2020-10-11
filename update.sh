@@ -40,5 +40,5 @@ Issues | $issues
 Pull requests | $prs
 Followers | $followers
 
-<small>Last updated: $(date -u "+%F %T UTC")</small>
+<sub>Last updated: $(date -u "+%F %T UTC")</sub>
 EOF
