@@ -29,16 +29,40 @@ fetch followers .followers .user.json
 cat > README.md << EOF
 # $name
 
-|||
--|-
-Repositories | [$repos](https://github.com/$1?tab=repositories)
-Gists | [$gists](https://gist.github.com/$1)
-Total stars | $stars
-Total forks | $forks
-Commits | $commits
-Issues | $issues
-Pull requests | $prs
-Followers | [$followers](https://github.com/$1?tab=followers)
+<table>
+    <tr>
+        <td>Repositories</td>
+        <td><a href="https://github.com/$1?tab=repositories">$repos</a></td>
+    </tr>
+    <tr>
+        <td>Gists</td>
+        <td><a href="https://gist.github.com/$1">$gists</a></td>
+    </tr>
+    <tr>
+        <td>Total stars</td>
+        <td>$stars</td>
+    </tr>
+    <tr>
+        <td>Total forks</td>
+        <td>$forks</td>
+    </tr>
+    <tr>
+        <td>Commits</td>
+        <td>$commits</td>
+    </tr>
+    <tr>
+        <td>Issues</td>
+        <td>$issues</td>
+    </tr>
+    <tr>
+        <td>Pull requests</td>
+        <td>$prs</td>
+    </tr>
+    <tr>
+        <td>Followers</td>
+        <td><a href="https://github.com/$1?tab=followers">$followers</a></td>
+    </tr>
+</table>
 
 <sub>Last updated: $(date -u "+%F %T UTC")</sub>
 EOF
