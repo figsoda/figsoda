@@ -1,11 +1,13 @@
 #!/bin/bash
 
+set -e
+
 get() {
-    curl -LSso "$@" || exit
+    curl -LSso "$@"
 }
 
 fetch() {
-    val="$(jq -e "${@:2}")" || exit
+    val="$(jq -e "${@:2}")"
     declare -g "$1=$val"
 }
 
