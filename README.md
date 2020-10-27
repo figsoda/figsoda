@@ -27,7 +27,7 @@
     </tr>
     <tr>
         <td>Pull requests</td>
-        <td>2</td>
+        <td>3</td>
     </tr>
     <tr>
         <td>Followers</td>
@@ -35,4 +35,4 @@
     </tr>
 </table>
 
-<sub>Last updated: 2020-10-27 20:21:39 UTC</sub>
+<sub>Last updated: 2020-10-27 21:19:23 UTC</sub>
