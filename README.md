@@ -3,7 +3,7 @@
 <table>
     <tr>
         <td>Repositories</td>
-        <td><a href="https://github.com/figsoda?tab=repositories">12</a></td>
+        <td><a href="https://github.com/figsoda?tab=repositories">10</a></td>
     </tr>
     <tr>
         <td>Gists</td>
@@ -35,4 +35,4 @@
     </tr>
 </table>
 
-<sub>Last updated: 2020-10-28 15:23:23 UTC</sub>
+<sub>Last updated: 2020-10-28 16:32:50 UTC</sub>
