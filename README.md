@@ -23,7 +23,7 @@
     </tr>
     <tr>
         <td>Issues</td>
-        <td>7</td>
+        <td>8</td>
     </tr>
     <tr>
         <td>Pull requests</td>
@@ -35,4 +35,4 @@
     </tr>
 </table>
 
-<sub>Last updated: 2020-11-01 15:12:58 UTC</sub>
+<sub>Last updated: 2020-11-01 16:22:06 UTC</sub>
