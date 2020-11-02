@@ -28,8 +28,16 @@ fetch issues .total_count .issues.json
 fetch prs .total_count .prs.json
 fetch followers .followers .user.json
 
+jq -ecr .[].languages_url .repos.json | xargs curl -LSs | jq -ecs > .langs.json
+langs="$(python3 langs.py)"
+
+date="$(date -u "+%F %T UTC")"
+
 cat > README.md << EOF
 # $name
+
+
+## Statistics
 
 <table>
     <tr>
@@ -66,5 +74,13 @@ cat > README.md << EOF
     </tr>
 </table>
 
-<sub>Last updated: $(date -u "+%F %T UTC")</sub>
+
+## Top languages
+
+<table>
+$langs
+</table>
+
+
+<sub>Last updated: $date</sub>
 EOF
