@@ -75,7 +75,7 @@ cat > README.md << EOF
 </table>
 
 
-## Top languages
+## Most used languages
 
 <table>
 $langs
