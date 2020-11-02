@@ -1,5 +1,8 @@
 # figsoda
 
+
+## Statistics
+
 <table>
     <tr>
         <td>Repositories</td>
@@ -19,7 +22,7 @@
     </tr>
     <tr>
         <td>Commits</td>
-        <td>798</td>
+        <td>802</td>
     </tr>
     <tr>
         <td>Issues</td>
@@ -35,4 +38,16 @@
     </tr>
 </table>
 
-<sub>Last updated: 2020-11-02 02:15:14 UTC</sub>
+
+## Most used languages
+
+<table>
+<tr><td>Lua</td><td>45.17%</td></tr>
+<tr><td>Rust</td><td>42.08%</td></tr>
+<tr><td>Shell</td><td>6.63%</td></tr>
+<tr><td>Haskell</td><td>5.43%</td></tr>
+<tr><td>Python</td><td>0.7%</td></tr>
+</table>
+
+
+<sub>Last updated: 2020-11-02 03:20:08 UTC</sub>
