@@ -6,7 +6,7 @@
 <table>
     <tr>
         <td>Repositories</td>
-        <td><a href="https://github.com/figsoda?tab=repositories">11</a></td>
+        <td><a href="https://github.com/figsoda?tab=repositories">12</a></td>
     </tr>
     <tr>
         <td>Gists</td>
@@ -42,12 +42,15 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>48.5%</td></tr>
-<tr><td>Lua</td><td>40.17%</td></tr>
-<tr><td>Shell</td><td>5.89%</td></tr>
-<tr><td>Haskell</td><td>4.82%</td></tr>
-<tr><td>Python</td><td>0.62%</td></tr>
+<tr><td>Rust</td><td>46.49%</td></tr>
+<tr><td>Lua</td><td>38.51%</td></tr>
+<tr><td>Shell</td><td>5.67%</td></tr>
+<tr><td>Haskell</td><td>4.63%</td></tr>
+<tr><td>Ruby</td><td>2.05%</td></tr>
+<tr><td>HTML</td><td>1.23%</td></tr>
+<tr><td>CSS</td><td>0.82%</td></tr>
+<tr><td>Python</td><td>0.6%</td></tr>
 </table>
 
 
-<sub>Last updated: 2020-11-03 17:13:34 UTC</sub>
+<sub>Last updated: 2020-11-03 18:13:41 UTC</sub>
