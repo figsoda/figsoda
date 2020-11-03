@@ -28,7 +28,7 @@ fetch issues .total_count .issues.json
 fetch prs .total_count .prs.json
 fetch followers .followers .user.json
 
-jq -e .[].languages_url .repos.json | xargs curl -LSs | jq -ecs . > .langs.json
+jq -e ".[] | select(.fork == false) | .languages_url" .repos.json | xargs curl -LSs | jq -ecs . > .langs.json
 langs="$(python3 langs.py)"
 
 date="$(date -u "+%F %T UTC")"
