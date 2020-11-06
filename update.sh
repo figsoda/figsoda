@@ -2,36 +2,27 @@
 
 set -e
 
-get() {
-    curl -LSso "$@"
-}
-
-fetch() {
-    val="$(jq -e "${@:2}")"
-    declare -g "$1=$val"
-}
-
-get .user.json "https://api.github.com/users/$1"
-get .repos.json "https://api.github.com/users/$1/repos"
-get .commits.json "https://api.github.com/search/commits?q=author:$1&per_page=1"\
+curl -LSso .user.json "https://api.github.com/users/$1"
+curl -LSso .repos.json "https://api.github.com/users/$1/repos"
+curl -LSso .commits.json "https://api.github.com/search/commits?q=author:$1&per_page=1"\
     -H "Accept: application/vnd.github.cloak-preview"
-get .issues.json "https://api.github.com/search/issues?q=author:$1+is:issue&per_page=1"
-get .prs.json "https://api.github.com/search/issues?q=author:$1+is:pr&per_page=1"
+curl -LSso .issues.json "https://api.github.com/search/issues?q=author:$1+is:issue&per_page=1"
+curl -LSso .prs.json "https://api.github.com/search/issues?q=author:$1+is:pr&per_page=1"
 
-fetch name -r .name .user.json
-fetch repos .public_repos .user.json
-fetch gists .public_gists .user.json
-fetch stars "map(.stargazers_count) | add" .repos.json
-fetch forks "map(.forks) | add" .repos.json
-fetch commits .total_count .commits.json
-fetch issues .total_count .issues.json
-fetch prs .total_count .prs.json
-fetch followers .followers .user.json
+name=$(jq -er .name .user.json)
+repos=$(jq -e .public_repos .user.json)
+gists=$(jq -e .public_gists .user.json)
+stars=$(jq -e "map(.stargazers_count) | add" .repos.json)
+forks=$(jq -e "map(.forks) | add" .repos.json)
+commits=$(jq -e .total_count .commits.json)
+issues=$(jq -e .total_count .issues.json)
+prs=$(jq -e .total_count .prs.json)
+followers=$(jq -e .followers .user.json)
 
 jq -e ".[] | select(.fork == false) | .languages_url" .repos.json | xargs curl -LSs | jq -ecs . > .langs.json
-langs="$(python3 langs.py)"
+langs=$(python3 langs.py)
 
-date="$(date -u "+%F %T UTC")"
+date=$(date -u "+%F %T UTC")
 
 cat > README.md << EOF
 # $name
