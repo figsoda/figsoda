@@ -42,12 +42,12 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>50.76%</td></tr>
-<tr><td>Lua</td><td>38.44%</td></tr>
-<tr><td>Shell</td><td>5.63%</td></tr>
+<tr><td>Rust</td><td>50.77%</td></tr>
+<tr><td>Lua</td><td>38.45%</td></tr>
+<tr><td>Shell</td><td>5.6%</td></tr>
 <tr><td>Haskell</td><td>4.59%</td></tr>
 <tr><td>Python</td><td>0.59%</td></tr>
 </table>
 
 
-<sub>Last updated: 2020-11-06 23:17:30 UTC</sub>
+<sub>Last updated: 2020-11-06 23:39:58 UTC</sub>
