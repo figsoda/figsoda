@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td>Total stars</td>
-        <td>5</td>
+        <td>16</td>
     </tr>
     <tr>
         <td>Total forks</td>
@@ -50,4 +50,4 @@
 </table>
 
 
-<sub>Last updated: 2020-11-10 13:11:57 UTC</sub>
+<sub>Last updated: 2020-11-10 14:14:10 UTC</sub>
