@@ -6,7 +6,7 @@
 <table>
     <tr>
         <td>Repositories</td>
-        <td><a href="https://github.com/figsoda?tab=repositories">13</a></td>
+        <td><a href="https://github.com/figsoda?tab=repositories">14</a></td>
     </tr>
     <tr>
         <td>Gists</td>
@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td>Total stars</td>
-        <td>20</td>
+        <td>21</td>
     </tr>
     <tr>
         <td>Total forks</td>
@@ -50,4 +50,4 @@
 </table>
 
 
-<sub>Last updated: 2020-11-12 15:15:48 UTC</sub>
+<sub>Last updated: 2020-11-12 16:24:21 UTC</sub>
