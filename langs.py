@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import functools, json
+import json
 
 xss = json.load(open(".langs.json"))
 ys = {}
