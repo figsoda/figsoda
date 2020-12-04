@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Update README.md
-        run: bash update.sh figsoda
+        run: update figsoda
       
       - name: Commit changes
         run: |
