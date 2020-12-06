@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td>Commits</td>
-        <td>1243</td>
+        <td>1247</td>
     </tr>
     <tr>
         <td>Issues</td>
@@ -42,13 +42,13 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>54.91%</td></tr>
+<tr><td>Rust</td><td>54.9%</td></tr>
 <tr><td>Lua</td><td>33.19%</td></tr>
 <tr><td>Haskell</td><td>4.19%</td></tr>
-<tr><td>Shell</td><td>3.67%</td></tr>
-<tr><td>Nix</td><td>2.86%</td></tr>
+<tr><td>Shell</td><td>3.68%</td></tr>
+<tr><td>Nix</td><td>2.87%</td></tr>
 <tr><td>Python</td><td>1.19%</td></tr>
 </table>
 
 
-<sub>Last updated: 2020-12-06 03:18:42 UTC</sub>
+<sub>Last updated: 2020-12-06 04:23:06 UTC</sub>
