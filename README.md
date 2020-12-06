@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td>Commits</td>
-        <td>1254</td>
+        <td>1255</td>
     </tr>
     <tr>
         <td>Issues</td>
@@ -46,9 +46,9 @@
 <tr><td>Lua</td><td>33.14%</td></tr>
 <tr><td>Haskell</td><td>4.17%</td></tr>
 <tr><td>Shell</td><td>3.66%</td></tr>
-<tr><td>Nix</td><td>3.2%</td></tr>
+<tr><td>Nix</td><td>3.19%</td></tr>
 <tr><td>Python</td><td>1.18%</td></tr>
 </table>
 
 
-<sub>Last updated: 2020-12-06 22:20:59 UTC</sub>
+<sub>Last updated: 2020-12-06 23:18:07 UTC</sub>
