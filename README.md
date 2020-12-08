@@ -30,7 +30,7 @@
     </tr>
     <tr>
         <td>Pull requests</td>
-        <td>11</td>
+        <td>13</td>
     </tr>
     <tr>
         <td>Followers</td>
@@ -51,4 +51,4 @@
 </table>
 
 
-<sub>Last updated: 2020-12-08 22:22:35 UTC</sub>
+<sub>Last updated: 2020-12-08 23:18:53 UTC</sub>
