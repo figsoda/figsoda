@@ -26,11 +26,11 @@
     </tr>
     <tr>
         <td>Issues</td>
-        <td>10</td>
+        <td>11</td>
     </tr>
     <tr>
         <td>Pull requests</td>
-        <td>13</td>
+        <td>16</td>
     </tr>
     <tr>
         <td>Followers</td>
@@ -51,4 +51,4 @@
 </table>
 
 
-<sub>Last updated: 2020-12-08 23:18:53 UTC</sub>
+<sub>Last updated: 2020-12-09 00:48:58 UTC</sub>
