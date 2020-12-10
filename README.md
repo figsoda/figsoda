@@ -10,7 +10,7 @@
     </tr>
     <tr>
         <td>Gists</td>
-        <td><a href="https://gist.github.com/figsoda">2</a></td>
+        <td><a href="https://gist.github.com/figsoda">1</a></td>
     </tr>
     <tr>
         <td>Total stars</td>
@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td>Commits</td>
-        <td>1289</td>
+        <td>1292</td>
     </tr>
     <tr>
         <td>Issues</td>
@@ -42,13 +42,13 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>54.63%</td></tr>
-<tr><td>Lua</td><td>33.25%</td></tr>
-<tr><td>Haskell</td><td>4.17%</td></tr>
-<tr><td>Nix</td><td>3.48%</td></tr>
+<tr><td>Rust</td><td>54.61%</td></tr>
+<tr><td>Lua</td><td>33.24%</td></tr>
+<tr><td>Haskell</td><td>4.16%</td></tr>
+<tr><td>Nix</td><td>3.52%</td></tr>
 <tr><td>Shell</td><td>3.29%</td></tr>
 <tr><td>Python</td><td>1.18%</td></tr>
 </table>
 
 
-<sub>Last updated: 2020-12-10 12:25:17 UTC</sub>
+<sub>Last updated: 2020-12-10 13:23:03 UTC</sub>
