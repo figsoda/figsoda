@@ -6,7 +6,7 @@
 <table>
     <tr>
         <td>Repositories</td>
-        <td><a href="https://github.com/figsoda?tab=repositories">15</a></td>
+        <td><a href="https://github.com/figsoda?tab=repositories">16</a></td>
     </tr>
     <tr>
         <td>Gists</td>
@@ -51,4 +51,4 @@
 </table>
 
 
-<sub>Last updated: 2020-12-31 23:30:02 UTC</sub>
+<sub>Last updated: 2021-01-01 01:08:10 UTC</sub>
