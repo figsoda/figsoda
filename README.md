@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td>Commits</td>
-        <td>1465</td>
+        <td>1467</td>
     </tr>
     <tr>
         <td>Issues</td>
@@ -46,9 +46,9 @@
 <tr><td>Lua</td><td>32.49%</td></tr>
 <tr><td>Nix</td><td>7.79%</td></tr>
 <tr><td>Haskell</td><td>4.04%</td></tr>
-<tr><td>Shell</td><td>2.64%</td></tr>
+<tr><td>Shell</td><td>2.65%</td></tr>
 <tr><td>Python</td><td>0.52%</td></tr>
 </table>
 
 
-<sub>Last updated: 2021-01-02 18:41:31 UTC</sub>
+<sub>Last updated: 2021-01-02 19:41:41 UTC</sub>
