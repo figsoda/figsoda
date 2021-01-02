@@ -6,7 +6,7 @@
 <table>
     <tr>
         <td>Repositories</td>
-        <td><a href="https://github.com/figsoda?tab=repositories">15</a></td>
+        <td><a href="https://github.com/figsoda?tab=repositories">16</a></td>
     </tr>
     <tr>
         <td>Gists</td>
@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td>Total stars</td>
-        <td>25</td>
+        <td>26</td>
     </tr>
     <tr>
         <td>Total forks</td>
@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td>Commits</td>
-        <td>1467</td>
+        <td>1468</td>
     </tr>
     <tr>
         <td>Issues</td>
@@ -42,13 +42,13 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>52.51%</td></tr>
-<tr><td>Lua</td><td>32.49%</td></tr>
-<tr><td>Nix</td><td>7.79%</td></tr>
-<tr><td>Haskell</td><td>4.04%</td></tr>
-<tr><td>Shell</td><td>2.65%</td></tr>
-<tr><td>Python</td><td>0.52%</td></tr>
+<tr><td>Rust</td><td>51.55%</td></tr>
+<tr><td>Lua</td><td>31.89%</td></tr>
+<tr><td>Nix</td><td>8.56%</td></tr>
+<tr><td>Haskell</td><td>3.97%</td></tr>
+<tr><td>Shell</td><td>2.6%</td></tr>
+<tr><td>Python</td><td>1.44%</td></tr>
 </table>
 
 
-<sub>Last updated: 2021-01-02 22:27:54 UTC</sub>
+<sub>Last updated: 2021-01-02 23:31:29 UTC</sub>
