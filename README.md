@@ -22,11 +22,11 @@
     </tr>
     <tr>
         <td>Commits</td>
-        <td>1506</td>
+        <td>1508</td>
     </tr>
     <tr>
         <td>Issues</td>
-        <td>11</td>
+        <td>12</td>
     </tr>
     <tr>
         <td>Pull requests</td>
@@ -44,11 +44,11 @@
 <table>
 <tr><td>Rust</td><td>51.71%</td></tr>
 <tr><td>Lua</td><td>31.23%</td></tr>
-<tr><td>Nix</td><td>9.01%</td></tr>
+<tr><td>Nix</td><td>9.02%</td></tr>
 <tr><td>Haskell</td><td>3.98%</td></tr>
 <tr><td>Shell</td><td>2.61%</td></tr>
 <tr><td>Python</td><td>1.45%</td></tr>
 </table>
 
 
-<sub>Last updated: 2021-01-04 21:21:57 UTC</sub>
+<sub>Last updated: 2021-01-04 22:29:23 UTC</sub>
