@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td>Total stars</td>
-        <td>32</td>
+        <td>33</td>
     </tr>
     <tr>
         <td>Total forks</td>
@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td>Commits</td>
-        <td>1511</td>
+        <td>1513</td>
     </tr>
     <tr>
         <td>Issues</td>
@@ -42,13 +42,13 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>51.71%</td></tr>
-<tr><td>Lua</td><td>31.23%</td></tr>
-<tr><td>Nix</td><td>9.02%</td></tr>
-<tr><td>Haskell</td><td>3.98%</td></tr>
-<tr><td>Shell</td><td>2.61%</td></tr>
+<tr><td>Rust</td><td>51.91%</td></tr>
+<tr><td>Lua</td><td>31.35%</td></tr>
+<tr><td>Nix</td><td>8.66%</td></tr>
+<tr><td>Haskell</td><td>4.0%</td></tr>
+<tr><td>Shell</td><td>2.63%</td></tr>
 <tr><td>Python</td><td>1.45%</td></tr>
 </table>
 
 
-<sub>Last updated: 2021-01-04 23:33:01 UTC</sub>
+<sub>Last updated: 2021-01-05 01:08:20 UTC</sub>
