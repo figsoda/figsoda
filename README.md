@@ -6,7 +6,7 @@
 <table>
     <tr>
         <td>Repositories</td>
-        <td><a href="https://github.com/figsoda?tab=repositories">17</a></td>
+        <td><a href="https://github.com/figsoda?tab=repositories">18</a></td>
     </tr>
     <tr>
         <td>Gists</td>
@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td>Commits</td>
-        <td>1554</td>
+        <td>1555</td>
     </tr>
     <tr>
         <td>Issues</td>
@@ -30,7 +30,7 @@
     </tr>
     <tr>
         <td>Pull requests</td>
-        <td>18</td>
+        <td>19</td>
     </tr>
     <tr>
         <td>Followers</td>
@@ -44,11 +44,11 @@
 <table>
 <tr><td>Rust</td><td>50.91%</td></tr>
 <tr><td>Lua</td><td>30.84%</td></tr>
-<tr><td>Nix</td><td>9.98%</td></tr>
+<tr><td>Nix</td><td>9.99%</td></tr>
 <tr><td>Haskell</td><td>3.92%</td></tr>
 <tr><td>Shell</td><td>2.58%</td></tr>
 <tr><td>Python</td><td>1.76%</td></tr>
 </table>
 
 
-<sub>Last updated: 2021-01-07 21:21:59 UTC</sub>
+<sub>Last updated: 2021-01-07 22:30:23 UTC</sub>
