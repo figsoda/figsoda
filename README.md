@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td>Total stars</td>
-        <td>46</td>
+        <td>47</td>
     </tr>
     <tr>
         <td>Total forks</td>
@@ -34,7 +34,7 @@
     </tr>
     <tr>
         <td>Followers</td>
-        <td><a href="https://github.com/figsoda?tab=followers">0</a></td>
+        <td><a href="https://github.com/figsoda?tab=followers">1</a></td>
     </tr>
 </table>
 
@@ -51,4 +51,4 @@
 </table>
 
 
-<sub>Last updated: 2021-01-17 05:20:58 UTC</sub>
+<sub>Last updated: 2021-01-17 13:22:14 UTC</sub>
