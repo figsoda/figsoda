@@ -1,77 +1,137 @@
-#!/usr/bin/env bash
+#!/usr/bin/env python3
 
-set -e
+import json, os
+from datetime import datetime
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 
-curl -LSso .user.json "https://api.github.com/users/$1"
-curl -LSso .repos.json "https://api.github.com/users/$1/repos"
-curl -LSso .commits.json "https://api.github.com/search/commits?q=author:$1&per_page=1"\
-    -H "Accept: application/vnd.github.cloak-preview"
-curl -LSso .issues.json "https://api.github.com/search/issues?q=author:$1+is:issue&per_page=1"
-curl -LSso .prs.json "https://api.github.com/search/issues?q=author:$1+is:pr&per_page=1"
+query = """
+{
+  issues: search(type: ISSUE, query: "author:figsoda is:issue") {
+    issueCount
+  }
 
-name=$(jq -er .name .user.json)
-repos=$(jq -e .public_repos .user.json)
-gists=$(jq -e .public_gists .user.json)
-stars=$(jq -e "map(.stargazers_count) | add" .repos.json)
-forks=$(jq -e "map(.forks) | add" .repos.json)
-commits=$(jq -e .total_count .commits.json)
-issues=$(jq -e .total_count .issues.json)
-prs=$(jq -e .total_count .prs.json)
-followers=$(jq -e .followers .user.json)
+  prs: search(type: ISSUE, query: "author:figsoda is:pr") {
+    issueCount
+  }
 
-jq -e ".[] | select(.fork == false) | .languages_url" .repos.json | xargs curl -LSs | jq -ecs . > .langs.json
-langs=$(python3 langs.py)
+  user(login: "figsoda") {
+    followers { totalCount }
+    gists { totalCount }
+    issues { totalCount }
+    name
+    pullRequests { totalCount }
+    repositories(first: 100, isFork: false, privacy: PUBLIC) {
+      totalCount
+      nodes {
+        forkCount
+        languages(first: 100) {
+          edges {
+            node { name }
+            size
+          }
+        }
+        stargazerCount
+      }
+    }
+    repositoriesContributedTo(privacy: PUBLIC) {
+      totalCount
+    }
+    url
+  }
+}
+"""
 
-date=$(date -u "+%F %T UTC")
+commits = json.load(urlopen(Request(
+    "https://api.github.com/search/commits?q=author:figsoda&per_page=1",
+    headers = {"Accept": "application/vnd.github.cloak-preview"},
+)))["total_count"]
 
-cat > README.md << EOF
-# $name
+data = json.load(urlopen(Request(
+    "https://api.github.com/graphql",
+    json.dumps({"query": query}).encode("ascii"),
+    {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"},
+)))["data"]
+user = data["user"]
+
+forks = 0
+langs = {}
+size = 0
+stars = 0
+
+for repo in user["repositories"]["nodes"]:
+    forks += repo["forkCount"]
+    stars += repo["stargazerCount"]
+    for lang in repo["languages"]["edges"]:
+        size += lang["size"]
+        name = lang["node"]["name"]
+        langs[name] = langs.get(name, 0) + lang["size"]
+
+readme = open("README.md", "w")
+
+readme.write(f"""
+# [{user["name"]}](user["url"])
 
 
 ## Statistics
 
 <table>
-    <tr>
-        <td>Repositories</td>
-        <td><a href="https://github.com/$1?tab=repositories">$repos</a></td>
-    </tr>
-    <tr>
-        <td>Gists</td>
-        <td><a href="https://gist.github.com/$1">$gists</a></td>
-    </tr>
-    <tr>
-        <td>Total stars</td>
-        <td>$stars</td>
-    </tr>
-    <tr>
-        <td>Total forks</td>
-        <td>$forks</td>
-    </tr>
-    <tr>
-        <td>Commits</td>
-        <td>$commits</td>
-    </tr>
-    <tr>
-        <td>Issues</td>
-        <td>$issues</td>
-    </tr>
-    <tr>
-        <td>Pull requests</td>
-        <td>$prs</td>
-    </tr>
-    <tr>
-        <td>Followers</td>
-        <td><a href="https://github.com/$1?tab=followers">$followers</a></td>
-    </tr>
+  <tr>
+    <td>Repositories</td>
+    <td><a href="https://github.com/figsoda?tab=repositories">
+      {user["repositories"]["totalCount"]}
+    </a></td>
+  </tr>
+  <tr>
+    <td>Gists</td>
+    <td><a href="https://gist.github.com/figsoda">
+      {user["gists"]["totalCount"]}
+    </a></td>
+  </tr>
+  <tr>
+    <td>Stargazers</td>
+    <td>{stars}</td>
+  </tr>
+  <tr>
+    <td>Forks</td>
+    <td>{forks}</td>
+  </tr>
+  <tr>
+    <td>Contributed to</td>
+    <td>{user["repositoriesContributedTo"]["totalCount"]}</td>
+  </tr>
+  <tr>
+    <td>Commits</td>
+    <td>{commits}</td>
+  </tr>
+  <tr>
+    <td>Issues</td>
+    <td>{data["issues"]["issueCount"]}</td>
+  </tr>
+  <tr>
+    <td>Pull requests</td>
+    <td>{data["prs"]["issueCount"]}</td>
+  </tr>
+  <tr>
+    <td>Followers</td>
+    <td><a href="https://github.com/figsoda?tab=followers">
+      {user["followers"]["totalCount"]}
+    </a></td>
+  </tr>
 </table>
 
 
 ## Most used languages
 
 <table>
-$langs
+""")
+
+for k, v in sorted(langs.items(), key = lambda x: x[1], reverse = True):
+    readme.write(f"<tr><td>{k}</td>{round(v / size * 100, 2)}%</td></tr>")
+
+readme.write("""
 </table>
 
 
-<sub>Last updated: $date</sub>
-EOF
+<sub>Last updated: {datetime.now().strftime("%F %T")}</sub>
+""")
