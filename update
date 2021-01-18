@@ -50,7 +50,7 @@ commits = json.load(urlopen(Request(
 data = json.load(urlopen(Request(
     "https://api.github.com/graphql",
     json.dumps({"query": query}).encode("ascii"),
-    {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"},
+    {"Authorization": f"token {os.getenv('TOKEN')}"},
 )))["data"]
 user = data["user"]
 
