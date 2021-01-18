@@ -133,5 +133,5 @@ readme.write(f"""
 </table>
 
 
-<sub>Last updated: {datetime.now().strftime("%F %T")}</sub>
+<sub>Last updated: {datetime.now().strftime("%F %T")} UTC</sub>
 """)
