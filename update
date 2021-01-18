@@ -70,7 +70,7 @@ for repo in user["repositories"]["nodes"]:
 readme = open("README.md", "w")
 
 readme.write(f"""
-# [{user["name"]}](user["url"])
+# [{user["name"]}]({user["url"]})
 
 
 ## Statistics
@@ -127,7 +127,7 @@ readme.write(f"""
 """)
 
 for k, v in sorted(langs.items(), key = lambda x: x[1], reverse = True):
-    readme.write(f"<tr><td>{k}</td>{round(v / size * 100, 2)}%</td></tr>")
+    readme.write(f"<tr><td>{k}</td><td>{round(v / size * 100, 2)}%</td></tr>")
 
 readme.write("""
 </table>
