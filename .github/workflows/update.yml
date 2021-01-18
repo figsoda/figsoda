@@ -18,7 +18,7 @@ jobs:
       - name: Update README.md
         run: ./update
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          TOKEN: ${{ secrets.TOKEN }}
 
       - name: Commit changes
         run: |
