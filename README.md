@@ -1,54 +1,60 @@
-# figsoda
+
+# [figsoda](user["url"])
 
 
 ## Statistics
 
 <table>
-    <tr>
-        <td>Repositories</td>
-        <td><a href="https://github.com/figsoda?tab=repositories">16</a></td>
-    </tr>
-    <tr>
-        <td>Gists</td>
-        <td><a href="https://gist.github.com/figsoda">1</a></td>
-    </tr>
-    <tr>
-        <td>Total stars</td>
-        <td>47</td>
-    </tr>
-    <tr>
-        <td>Total forks</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>Commits</td>
-        <td>1673</td>
-    </tr>
-    <tr>
-        <td>Issues</td>
-        <td>13</td>
-    </tr>
-    <tr>
-        <td>Pull requests</td>
-        <td>19</td>
-    </tr>
-    <tr>
-        <td>Followers</td>
-        <td><a href="https://github.com/figsoda?tab=followers">1</a></td>
-    </tr>
+  <tr>
+    <td>Repositories</td>
+    <td><a href="https://github.com/figsoda?tab=repositories">
+      15
+    </a></td>
+  </tr>
+  <tr>
+    <td>Gists</td>
+    <td><a href="https://gist.github.com/figsoda">
+      1
+    </a></td>
+  </tr>
+  <tr>
+    <td>Stargazers</td>
+    <td>47</td>
+  </tr>
+  <tr>
+    <td>Forks</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Contributed to</td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td>Commits</td>
+    <td>1676</td>
+  </tr>
+  <tr>
+    <td>Issues</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>Pull requests</td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td>Followers</td>
+    <td><a href="https://github.com/figsoda?tab=followers">
+      1
+    </a></td>
+  </tr>
 </table>
 
 
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>49.59%</td></tr>
-<tr><td>Lua</td><td>28.26%</td></tr>
-<tr><td>Nix</td><td>13.12%</td></tr>
-<tr><td>Haskell</td><td>3.79%</td></tr>
-<tr><td>Python</td><td>2.69%</td></tr>
-<tr><td>Shell</td><td>2.54%</td></tr>
+<tr><td>Rust</td>49.46%</td></tr><tr><td>Lua</td>28.18%</td></tr><tr><td>Nix</td>13.08%</td></tr><tr><td>Python</td>3.82%</td></tr><tr><td>Haskell</td>3.78%</td></tr><tr><td>Shell</td>1.67%</td></tr>
 </table>
 
 
-<sub>Last updated: 2021-01-17 23:12:19 UTC</sub>
+<sub>Last updated: {datetime.now().strftime("%F %T")}</sub>
