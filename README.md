@@ -1,5 +1,5 @@
 
-# [figsoda](user["url"])
+# [figsoda](https://github.com/figsoda)
 
 
 ## Statistics
@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td>Commits</td>
-    <td>1676</td>
+    <td>1677</td>
   </tr>
   <tr>
     <td>Issues</td>
@@ -53,7 +53,7 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td>49.46%</td></tr><tr><td>Lua</td>28.18%</td></tr><tr><td>Nix</td>13.08%</td></tr><tr><td>Python</td>3.82%</td></tr><tr><td>Haskell</td>3.78%</td></tr><tr><td>Shell</td>1.67%</td></tr>
+<tr><td>Rust</td><td>49.46%</td></tr><tr><td>Lua</td><td>28.18%</td></tr><tr><td>Nix</td><td>13.08%</td></tr><tr><td>Python</td><td>3.82%</td></tr><tr><td>Haskell</td><td>3.78%</td></tr><tr><td>Shell</td><td>1.67%</td></tr>
 </table>
 
 
