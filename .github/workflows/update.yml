@@ -16,7 +16,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Update README.md
-        run: ./update figsoda
+        run: ./update
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Commit changes
         run: |
