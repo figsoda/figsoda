@@ -125,7 +125,7 @@ readme.write(f"""
 <table>
 """)
 
-for k, v in sorted(langs.items(), key = lambda x: x[1], reverse = True):
+for k, v in sorted(langs.items(), key = lambda x: x[1], reverse = True)[:10]:
     readme.write(f"<tr><td>{k}</td><td>{round(v / size * 100, 2)}%</td></tr>")
 
 readme.write(f"""
