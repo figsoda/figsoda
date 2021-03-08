@@ -35,7 +35,7 @@
   </tr>
   <tr>
     <td>Issues</td>
-    <td>15</td>
+    <td>16</td>
   </tr>
   <tr>
     <td>Pull requests</td>
@@ -57,4 +57,4 @@
 </table>
 
 
-<sub>Last updated: 2021-03-08 16:27:46 UTC</sub>
+<sub>Last updated: 2021-03-08 17:31:33 UTC</sub>
