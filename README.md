@@ -8,7 +8,7 @@
   <tr>
     <td>Repositories</td>
     <td><a href="https://github.com/figsoda?tab=repositories">
-      16
+      17
     </a></td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td>Commits</td>
-    <td>1998</td>
+    <td>2001</td>
   </tr>
   <tr>
     <td>Issues</td>
@@ -53,7 +53,7 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>48.6%</td></tr><tr><td>Lua</td><td>27.17%</td></tr><tr><td>Nix</td><td>14.12%</td></tr><tr><td>Python</td><td>4.94%</td></tr><tr><td>Haskell</td><td>3.61%</td></tr><tr><td>Shell</td><td>1.56%</td></tr>
+<tr><td>Rust</td><td>48.59%</td></tr><tr><td>Lua</td><td>27.16%</td></tr><tr><td>Nix</td><td>14.14%</td></tr><tr><td>Python</td><td>4.94%</td></tr><tr><td>Haskell</td><td>3.61%</td></tr><tr><td>Shell</td><td>1.56%</td></tr>
 </table>
 
 
@@ -67,4 +67,4 @@
 </details>
 
 
-<sub>Last updated: 2021-03-18 14:17:25 UTC</sub>
+<sub>Last updated: 2021-03-18 15:17:02 UTC</sub>
