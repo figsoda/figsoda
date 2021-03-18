@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td>Commits</td>
-    <td>1997</td>
+    <td>1998</td>
   </tr>
   <tr>
     <td>Issues</td>
@@ -53,8 +53,18 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>48.64%</td></tr><tr><td>Lua</td><td>27.19%</td></tr><tr><td>Nix</td><td>14.13%</td></tr><tr><td>Python</td><td>4.86%</td></tr><tr><td>Haskell</td><td>3.61%</td></tr><tr><td>Shell</td><td>1.57%</td></tr>
+<tr><td>Rust</td><td>48.6%</td></tr><tr><td>Lua</td><td>27.17%</td></tr><tr><td>Nix</td><td>14.12%</td></tr><tr><td>Python</td><td>4.94%</td></tr><tr><td>Haskell</td><td>3.61%</td></tr><tr><td>Shell</td><td>1.56%</td></tr>
 </table>
 
 
-<sub>Last updated: 2021-03-18 11:15:56 UTC</sub>
+## Donate
+
+<details>
+  <summary>monero</summary>
+
+  ![monero-qr](imgs/monero-qr.png)
+  `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
+</details>
+
+
+<sub>Last updated: 2021-03-18 13:26:27 UTC</sub>
