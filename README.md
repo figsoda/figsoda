@@ -44,7 +44,7 @@
   <tr>
     <td>Followers</td>
     <td><a href="https://github.com/figsoda?tab=followers">
-      2
+      3
     </a></td>
   </tr>
 </table>
@@ -67,4 +67,4 @@
 </details>
 
 
-<sub>Last updated: 2021-03-20 05:18:01 UTC</sub>
+<sub>Last updated: 2021-03-20 06:18:36 UTC</sub>
