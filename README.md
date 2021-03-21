@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <td>Forks</td>
-    <td>1</td>
+    <td>2</td>
   </tr>
   <tr>
     <td>Contributed to</td>
@@ -67,4 +67,4 @@
 </details>
 
 
-<sub>Last updated: 2021-03-21 14:22:17 UTC</sub>
+<sub>Last updated: 2021-03-21 15:17:47 UTC</sub>
