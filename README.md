@@ -8,7 +8,7 @@
   <tr>
     <td>Repositories</td>
     <td><a href="https://github.com/figsoda?tab=repositories">
-      16
+      17
     </a></td>
   </tr>
   <tr>
@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Stargazers</td>
-    <td>63</td>
+    <td>64</td>
   </tr>
   <tr>
     <td>Forks</td>
@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td>Commits</td>
-    <td>2032</td>
+    <td>2121</td>
   </tr>
   <tr>
     <td>Issues</td>
@@ -39,7 +39,7 @@
   </tr>
   <tr>
     <td>Pull requests</td>
-    <td>28</td>
+    <td>29</td>
   </tr>
   <tr>
     <td>Followers</td>
@@ -53,7 +53,7 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>48.69%</td></tr><tr><td>Lua</td><td>27.21%</td></tr><tr><td>Nix</td><td>13.96%</td></tr><tr><td>Python</td><td>4.95%</td></tr><tr><td>Haskell</td><td>3.62%</td></tr><tr><td>Shell</td><td>1.57%</td></tr>
+<tr><td>Rust</td><td>45.37%</td></tr><tr><td>Lua</td><td>25.33%</td></tr><tr><td>Nix</td><td>18.25%</td></tr><tr><td>Python</td><td>4.65%</td></tr><tr><td>Haskell</td><td>3.45%</td></tr><tr><td>Shell</td><td>1.46%</td></tr><tr><td>Idris</td><td>0.38%</td></tr><tr><td>Java</td><td>0.11%</td></tr><tr><td>Go</td><td>0.1%</td></tr><tr><td>C#</td><td>0.1%</td></tr>
 </table>
 
 
@@ -67,4 +67,4 @@
 </details>
 
 
-<sub>Last updated: 2021-03-23 13:28:37 UTC</sub>
+<sub>Last updated: 2021-03-23 15:34:08 UTC</sub>
