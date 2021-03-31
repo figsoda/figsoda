@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td>Commits</td>
-    <td>2176</td>
+    <td>2181</td>
   </tr>
   <tr>
     <td>Issues</td>
@@ -53,7 +53,7 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>44.99%</td></tr><tr><td>Lua</td><td>25.11%</td></tr><tr><td>Nix</td><td>18.94%</td></tr><tr><td>Python</td><td>4.61%</td></tr><tr><td>Haskell</td><td>3.42%</td></tr><tr><td>Shell</td><td>1.45%</td></tr><tr><td>Idris</td><td>0.38%</td></tr><tr><td>Java</td><td>0.11%</td></tr><tr><td>Go</td><td>0.1%</td></tr><tr><td>C#</td><td>0.1%</td></tr>
+<tr><td>Rust</td><td>44.96%</td></tr><tr><td>Lua</td><td>25.1%</td></tr><tr><td>Nix</td><td>18.99%</td></tr><tr><td>Python</td><td>4.61%</td></tr><tr><td>Haskell</td><td>3.41%</td></tr><tr><td>Shell</td><td>1.45%</td></tr><tr><td>Idris</td><td>0.38%</td></tr><tr><td>Java</td><td>0.11%</td></tr><tr><td>Go</td><td>0.1%</td></tr><tr><td>C#</td><td>0.1%</td></tr>
 </table>
 
 
@@ -67,4 +67,4 @@
 </details>
 
 
-<sub>Last updated: 2021-03-31 15:21:26 UTC</sub>
+<sub>Last updated: 2021-03-31 16:37:01 UTC</sub>
