@@ -134,12 +134,7 @@ readme.write(f"""
 
 ## Donate
 
-<details>
-  <summary>monero</summary>
-
-  ![monero-qr](imgs/monero-qr.png)
-  `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
-</details>
+XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
 
 
 <sub>Last updated: {datetime.now().strftime("%F %T")} UTC</sub>
