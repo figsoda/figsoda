@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td>Commits</td>
-    <td>2566</td>
+    <td>2568</td>
   </tr>
   <tr>
     <td>Issues</td>
@@ -53,7 +53,7 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>44.03%</td></tr><tr><td>Lua</td><td>24.9%</td></tr><tr><td>Nix</td><td>20.31%</td></tr><tr><td>Python</td><td>4.55%</td></tr><tr><td>Haskell</td><td>3.34%</td></tr><tr><td>Shell</td><td>1.42%</td></tr><tr><td>Idris</td><td>0.37%</td></tr><tr><td>Java</td><td>0.1%</td></tr><tr><td>Go</td><td>0.1%</td></tr><tr><td>C#</td><td>0.1%</td></tr>
+<tr><td>Rust</td><td>43.98%</td></tr><tr><td>Lua</td><td>24.99%</td></tr><tr><td>Nix</td><td>20.28%</td></tr><tr><td>Python</td><td>4.55%</td></tr><tr><td>Haskell</td><td>3.34%</td></tr><tr><td>Shell</td><td>1.41%</td></tr><tr><td>Idris</td><td>0.37%</td></tr><tr><td>Java</td><td>0.1%</td></tr><tr><td>Go</td><td>0.1%</td></tr><tr><td>C#</td><td>0.1%</td></tr>
 </table>
 
 
@@ -62,4 +62,4 @@
 XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
 
 
-<sub>Last updated: 2021-07-04 17:19:25 UTC</sub>
+<sub>Last updated: 2021-07-04 18:19:13 UTC</sub>
