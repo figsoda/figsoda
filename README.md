@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td>Commits</td>
-    <td>2793</td>
+    <td>2794</td>
   </tr>
   <tr>
     <td>Issues</td>
@@ -44,7 +44,7 @@
   <tr>
     <td>Followers</td>
     <td><a href="https://github.com/figsoda?tab=followers">
-      9
+      10
     </a></td>
   </tr>
 </table>
@@ -53,7 +53,7 @@
 ## Most used languages
 
 <table>
-<tr><td>Rust</td><td>42.82%</td></tr><tr><td>Lua</td><td>25.92%</td></tr><tr><td>Nix</td><td>18.79%</td></tr><tr><td>Python</td><td>4.48%</td></tr><tr><td>Haskell</td><td>3.24%</td></tr><tr><td>Vim script</td><td>1.96%</td></tr><tr><td>Shell</td><td>1.37%</td></tr><tr><td>Idris</td><td>0.36%</td></tr><tr><td>Java</td><td>0.1%</td></tr><tr><td>Go</td><td>0.1%</td></tr>
+<tr><td>Rust</td><td>42.82%</td></tr><tr><td>Lua</td><td>25.92%</td></tr><tr><td>Nix</td><td>18.79%</td></tr><tr><td>Python</td><td>4.49%</td></tr><tr><td>Haskell</td><td>3.24%</td></tr><tr><td>Vim script</td><td>1.96%</td></tr><tr><td>Shell</td><td>1.37%</td></tr><tr><td>Idris</td><td>0.36%</td></tr><tr><td>Java</td><td>0.1%</td></tr><tr><td>Go</td><td>0.1%</td></tr>
 </table>
 
 
@@ -62,4 +62,4 @@
 XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
 
 
-<sub>Last updated: 2021-08-12 19:12:45 UTC</sub>
+<sub>Last updated: 2021-08-12 20:16:33 UTC</sub>
