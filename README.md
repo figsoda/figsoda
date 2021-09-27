@@ -44,7 +44,7 @@
   <tr>
     <td>Followers</td>
     <td><a href="https://github.com/figsoda?tab=followers">
-      14
+      13
     </a></td>
   </tr>
 </table>
@@ -62,4 +62,4 @@
 XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
 
 
-<sub>Last updated: 2021-09-27 07:16:04 UTC</sub>
+<sub>Last updated: 2021-09-27 08:19:34 UTC</sub>
