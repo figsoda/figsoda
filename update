@@ -19,7 +19,6 @@ query = """
     followers { totalCount }
     gists { totalCount }
     issues { totalCount }
-    name
     pullRequests { totalCount }
     repositories(first: 100, isFork: false, privacy: PUBLIC) {
       totalCount
@@ -37,7 +36,6 @@ query = """
     repositoriesContributedTo(privacy: PUBLIC) {
       totalCount
     }
-    url
   }
 }
 """
@@ -75,12 +73,7 @@ for repo in user["repositories"]["nodes"]:
         name = lang["node"]["name"]
         langs[name] = langs.get(name, 0) + lang["size"]
 
-readme = open("README.md", "w")
-
-readme.write(
-    f"""
-# [{user["name"]}]({user["url"]})
-
+readme = f"""# [figsoda](https://github.com/figsoda)
 
 ## Statistics
 
@@ -129,26 +122,24 @@ readme.write(
   </tr>
 </table>
 
-
 ## Most used languages
 
-<table>
-"""
-)
+<table> """
 
 for k, v in sorted(langs.items(), key=lambda x: x[1], reverse=True)[:10]:
-    readme.write(f"<tr><td>{k}</td><td>{round(v / size * 100, 2)}%</td></tr>")
+    readme += f"<tr><td>{k}</td><td>{round(v / size * 100, 2)}%</td></tr>"
 
-readme.write(
-    f"""
-</table>
+if readme == open("README.md").read(len(readme)):
+    print("Nothing has changed")
+    exit(1)
 
+readme += f"""</table>
 
 ## Donate
 
 XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
 
-
 <sub>Last updated: {datetime.now().strftime("%F %T")} UTC</sub>
 """
-)
+
+open("README.md", "w").write(readme)
