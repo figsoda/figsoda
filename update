@@ -139,7 +139,7 @@ readme += f"""</table>
 
 XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
 
-<sub>Last updated: {datetime.now().strftime("%F %T")} UTC</sub>
+<sub>Last updated: {datetime.utcnow().strftime("%F %T")} UTC</sub>
 """
 
 open("README.md", "w").write(readme)
