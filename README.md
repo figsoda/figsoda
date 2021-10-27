@@ -25,15 +25,15 @@
   </tr>
   <tr>
     <td>Contributed to</td>
-    <td>41</td>
+    <td>42</td>
   </tr>
   <tr>
     <td>Commits</td>
-    <td>3803</td>
+    <td>3805</td>
   </tr>
   <tr>
     <td>Issues</td>
-    <td>42</td>
+    <td>43</td>
   </tr>
   <tr>
     <td>Pull requests</td>
@@ -49,10 +49,10 @@
 
 ## Most used languages
 
-<table> <tr><td>Rust</td><td>40.24%</td></tr><tr><td>Lua</td><td>26.7%</td></tr><tr><td>Nix</td><td>20.54%</td></tr><tr><td>Python</td><td>4.48%</td></tr><tr><td>Haskell</td><td>3.05%</td></tr><tr><td>Vim script</td><td>1.98%</td></tr><tr><td>Shell</td><td>1.69%</td></tr><tr><td>Idris</td><td>0.34%</td></tr><tr><td>Java</td><td>0.09%</td></tr><tr><td>Go</td><td>0.09%</td></tr></table>
+<table> <tr><td>Rust</td><td>40.26%</td></tr><tr><td>Lua</td><td>26.72%</td></tr><tr><td>Nix</td><td>20.5%</td></tr><tr><td>Python</td><td>4.48%</td></tr><tr><td>Haskell</td><td>3.06%</td></tr><tr><td>Vim script</td><td>1.98%</td></tr><tr><td>Shell</td><td>1.69%</td></tr><tr><td>Idris</td><td>0.34%</td></tr><tr><td>Java</td><td>0.09%</td></tr><tr><td>Go</td><td>0.09%</td></tr></table>
 
 ## Donate
 
 XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
 
-<sub>Last updated: 2021-10-26 23:16:58 UTC</sub>
+<sub>Last updated: 2021-10-27 00:53:54 UTC</sub>
