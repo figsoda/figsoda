@@ -37,7 +37,7 @@
   </tr>
   <tr>
     <td>Pull requests</td>
-    <td>426</td>
+    <td>406</td>
   </tr>
   <tr>
     <td>Followers</td>
@@ -55,4 +55,4 @@
 
 XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
 
-<sub>Last updated: 2022-08-11 15:19:54 UTC</sub>
+<sub>Last updated: 2022-08-11 20:19:15 UTC</sub>
