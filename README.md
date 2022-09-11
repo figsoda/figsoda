@@ -29,7 +29,7 @@
   </tr>
   <tr>
     <td>Commits</td>
-    <td>9186</td>
+    <td>9193</td>
   </tr>
   <tr>
     <td>Issues</td>
@@ -49,10 +49,10 @@
 
 ## Most used languages
 
-<table> <tr><td>Rust</td><td>38.05%</td></tr><tr><td>Lua</td><td>25.57%</td></tr><tr><td>Nix</td><td>20.98%</td></tr><tr><td>Python</td><td>3.56%</td></tr><tr><td>Haskell</td><td>2.89%</td></tr><tr><td>Shell</td><td>1.64%</td></tr><tr><td>ANTLR</td><td>1.43%</td></tr><tr><td>OCaml</td><td>1.17%</td></tr><tr><td>Vim Script</td><td>1.13%</td></tr><tr><td>Yacc</td><td>1.08%</td></tr></table>
+<table> <tr><td>Rust</td><td>37.92%</td></tr><tr><td>Lua</td><td>26.05%</td></tr><tr><td>Nix</td><td>20.9%</td></tr><tr><td>Python</td><td>3.55%</td></tr><tr><td>Haskell</td><td>2.87%</td></tr><tr><td>Shell</td><td>1.63%</td></tr><tr><td>ANTLR</td><td>1.43%</td></tr><tr><td>OCaml</td><td>1.17%</td></tr><tr><td>Yacc</td><td>1.08%</td></tr><tr><td>Vim Script</td><td>0.91%</td></tr></table>
 
 ## Donate
 
 XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
 
-<sub>Last updated: 2022-09-10 21:17:30 UTC</sub>
+<sub>Last updated: 2022-09-11 02:09:59 UTC</sub>
