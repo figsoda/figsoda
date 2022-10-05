@@ -137,7 +137,7 @@ readme += f"""</table>
 
 ## Donate
 
-XMR: `87knNML887sc91hdkCuen1dqwxXbbakDTV4cYWK9XRGVSJeE5nBpgBn8cpkJj2UrUHS5T6fccQvTUDCbxtqdBAyzCajCwMx`
+[Ko-fi](https://ko-fi.com/figsoda) [Liberapay](https://liberapay.com/figsoda)
 
 <sub>Last updated: {datetime.utcnow().strftime("%F %T")} UTC</sub>
 """
