@@ -17,6 +17,7 @@ query = """
 
   user(login: "figsoda") {
     followers { totalCount }
+    following { totalCount }
     gists { totalCount }
     issues { totalCount }
     pullRequests { totalCount }
@@ -73,58 +74,63 @@ for repo in user["repositories"]["nodes"]:
         name = lang["node"]["name"]
         langs[name] = langs.get(name, 0) + lang["size"]
 
-readme = f"""# [figsoda](https://github.com/figsoda)
-
-## Statistics
-
-<table>
-  <tr>
-    <td>Repositories</td>
-    <td><a href="https://github.com/figsoda?tab=repositories">
-      {user["repositories"]["totalCount"]}
-    </a></td>
+readme = f"""<table>
+  <tr align="center">
+    <td><b>Statistics</b></td>
+    <td><b>Languages</b></td>
   </tr>
-  <tr>
-    <td>Gists</td>
-    <td><a href="https://gist.github.com/figsoda">
-      {user["gists"]["totalCount"]}
-    </a></td>
-  </tr>
-  <tr>
-    <td>Stargazers</td>
-    <td>{stars}</td>
-  </tr>
-  <tr>
-    <td>Forks</td>
-    <td>{forks}</td>
-  </tr>
-  <tr>
-    <td>Contributed to</td>
-    <td>{user["repositoriesContributedTo"]["totalCount"]}</td>
-  </tr>
-  <tr>
-    <td>Commits</td>
-    <td>{commits}</td>
-  </tr>
-  <tr>
-    <td>Issues</td>
-    <td>{data["issues"]["issueCount"]}</td>
-  </tr>
-  <tr>
-    <td>Pull requests</td>
-    <td>{data["prs"]["issueCount"]}</td>
-  </tr>
-  <tr>
-    <td>Followers</td>
-    <td><a href="https://github.com/figsoda?tab=followers">
-      {user["followers"]["totalCount"]}
-    </a></td>
-  </tr>
-</table>
-
-## Most used languages
-
-<table> """
+  <tr valign="top">
+    <td><table>
+      <tr>
+        <td>Repositories</td>
+        <td><a href="https://github.com/figsoda?tab=repositories">
+          {user["repositories"]["totalCount"]}
+        </a></td>
+      </tr>
+      <tr>
+        <td>Gists</td>
+        <td><a href="https://gist.github.com/figsoda">
+          {user["gists"]["totalCount"]}
+        </a></td>
+      </tr>
+      <tr>
+        <td>Stargazers</td>
+        <td>{stars}</td>
+      </tr>
+      <tr>
+        <td>Forks</td>
+        <td>{forks}</td>
+      </tr>
+      <tr>
+        <td>Contributed to</td>
+        <td>{user["repositoriesContributedTo"]["totalCount"]}</td>
+      </tr>
+      <tr>
+        <td>Commits</td>
+        <td>{commits}</td>
+      </tr>
+      <tr>
+        <td>Issues</td>
+        <td>{data["issues"]["issueCount"]}</td>
+      </tr>
+      <tr>
+        <td>Pull requests</td>
+        <td>{data["prs"]["issueCount"]}</td>
+      </tr>
+      <tr>
+        <td>Followers</td>
+        <td><a href="https://github.com/figsoda?tab=followers">
+          {user["followers"]["totalCount"]}
+        </a></td>
+      </tr>
+      <tr>
+        <td>Following</td>
+        <td><a href="https://github.com/figsoda?tab=following">
+          {user["following"]["totalCount"]}
+        </a></td>
+      </tr>
+    </table></td>
+    <td><table>"""
 
 for k, v in sorted(langs.items(), key=lambda x: x[1], reverse=True)[:10]:
     readme += f"<tr><td>{k}</td><td>{round(v / size * 100, 2)}%</td></tr>"
@@ -133,11 +139,12 @@ if readme == open("README.md").read(len(readme)):
     print("Nothing has changed")
     exit(1)
 
-readme += f"""</table>
+readme += f"""</table></td>
+  </tr>
+</table>
 
-## Donate
-
-[Ko-fi](https://ko-fi.com/figsoda) [Liberapay](https://liberapay.com/figsoda)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-figsoda-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/figsoda)
+[![Liberapay](https://img.shields.io/badge/Liberapay-figsoda-f6c915?style=flat-square&logo=liberapay)](https://liberapay.com/figsoda)
 
 <sub>Last updated: {datetime.utcnow().strftime("%F %T")} UTC</sub>
 """
