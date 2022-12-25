@@ -51,6 +51,7 @@ query = """
           }
         }
         stargazerCount
+        viewerPermission
       }
     }
     repositoriesContributedTo(privacy: PUBLIC) {
@@ -95,6 +96,9 @@ size = 0
 stars = 0
 
 for repo in user["repositories"]["nodes"]:
+    if repo["viewerPermission"] != "ADMIN":
+        continue
+
     forks += repo["forkCount"]
     stars += repo["stargazerCount"]
     for lang in repo["languages"]["edges"]:
