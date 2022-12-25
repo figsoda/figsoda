@@ -83,7 +83,7 @@ data = json.load(
         Request(
             "https://api.github.com/graphql",
             json.dumps({"query": query}).encode("ascii"),
-            {"Authorization": f"token {os.getenv('TOKEN')}"},
+            {"Authorization": f"token {os.environ['TOKEN']}"},
         )
     )
 )["data"]
@@ -191,10 +191,6 @@ readme += f"""
 
 for k, v in sorted(langs.items(), key=lambda x: x[1], reverse=True)[:10]:
     readme += f"<tr><td>{k}</td><td>{round(v / size * 100, 2)}%</td></tr>"
-
-if readme == open("README.md").read(len(readme)):
-    print("Nothing has changed")
-    exit(1)
 
 readme += f"""</table></td>
   </tr>
