@@ -2,8 +2,27 @@
 
 import json
 import os
+import re
 from datetime import datetime
+from itertools import chain
 from urllib.request import Request, urlopen
+
+created = [
+    ("figsoda", "cfg"),
+    ("figsoda", "mmtc"),
+    ("figsoda", "pactorio"),
+    ("figsoda", "pkgs"),
+    ("figsoda", "sagoin"),
+    ("nix-community", "fenix"),
+    ("nix-community", "patsh"),
+]
+
+maintain = [
+    ("mic92", "nix-update"),
+    ("mic92", "nixpkgs-review"),
+    ("nixos", "nixpkgs"),
+    ("ouch-org", "ouch"),
+]
 
 query = """
 {
@@ -38,8 +57,17 @@ query = """
       totalCount
     }
   }
-}
 """
+
+for owner, repo in chain(created, maintain):
+    query += f"""
+  {repo.replace("-", "_")}: repository(owner: "{owner}", name: "{repo}") {{
+    description
+    stargazerCount
+  }}
+"""
+
+query += "}"
 
 commits = json.load(
     urlopen(
@@ -74,7 +102,36 @@ for repo in user["repositories"]["nodes"]:
         name = lang["node"]["name"]
         langs[name] = langs.get(name, 0) + lang["size"]
 
-readme = f"""<table>
+
+regex = re.compile(r"^(.*?)\s*\[maintainer[^\]]+\]\s*$")
+
+
+def add_repos(repos):
+    global data
+    global readme
+    global regex
+
+    for owner, repo in sorted(
+        repos,
+        key=lambda x: int(data[x[1].replace("-", "_")]["stargazerCount"]),
+        reverse=True,
+    ):
+        repo_data = data[repo.replace("-", "_")]
+        description = repo_data["description"]
+
+        if owner == "nix-community":
+            description = regex.sub(r"\1", description)
+
+        readme += f"- [**{repo}**](https://github.com/{owner}/{repo}) (⭐ {repo_data['stargazerCount']}) - {description}\n"
+
+
+readme = "#### Projects I created\n\n"
+add_repos(created)
+readme += "\n#### Projects I maintain\n\n"
+add_repos(maintain)
+
+readme += f"""
+<table>
   <tr align="center">
     <td><b>Statistics</b></td>
     <td><b>Languages</b></td>
