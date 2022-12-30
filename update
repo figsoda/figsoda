@@ -14,6 +14,7 @@ created = [
     ("figsoda", "pkgs"),
     ("figsoda", "sagoin"),
     ("nix-community", "fenix"),
+    ("nix-community", "nurl"),
     ("nix-community", "patsh"),
 ]
 
