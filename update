@@ -10,6 +10,7 @@ from urllib.request import Request, urlopen
 created = [
     ("figsoda", "cfg"),
     ("figsoda", "mmtc"),
+    ("figsoda", "nix-develop.nvim"),
     ("figsoda", "pactorio"),
     ("figsoda", "pkgs"),
     ("figsoda", "sagoin"),
@@ -63,7 +64,7 @@ query = """
 
 for owner, repo in chain(created, maintain):
     query += f"""
-  {repo.replace("-", "_")}: repository(owner: "{owner}", name: "{repo}") {{
+  {repo.replace("-", "_").replace(".", "_")}: repository(owner: "{owner}", name: "{repo}") {{
     description
     stargazerCount
   }}
@@ -118,10 +119,12 @@ def add_repos(repos):
 
     for owner, repo in sorted(
         repos,
-        key=lambda x: int(data[x[1].replace("-", "_")]["stargazerCount"]),
+        key=lambda x: int(
+            data[x[1].replace("-", "_").replace(".", "_")]["stargazerCount"]
+        ),
         reverse=True,
     ):
-        repo_data = data[repo.replace("-", "_")]
+        repo_data = data[repo.replace("-", "_").replace(".", "_")]
         description = repo_data["description"]
 
         if owner == "nix-community":
