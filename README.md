@@ -1,25 +1,24 @@
 #### Projects I created
 
-- [**nix-init**](https://github.com/nix-community/nix-init) (⭐ 339) - Generate Nix packages from URLs with hash prefetching, dependency inference, license detection, and more
-- [**fenix**](https://github.com/nix-community/fenix) (⭐ 306) - Rust toolchains and rust-analyzer nightly for Nix
-- [**nurl**](https://github.com/nix-community/nurl) (⭐ 185) - Generate Nix fetcher calls from repository URLs
-- [**haumea**](https://github.com/nix-community/haumea) (⭐ 60) - Filesystem-based module system for Nix
-- [**mmtc**](https://github.com/figsoda/mmtc) (⭐ 58) - Minimal mpd terminal client that aims to be simple yet highly configurable
-- [**cfg**](https://github.com/figsoda/cfg) (⭐ 38) - My NixOS configuration featuring awesome and neovim
-- [**nix-develop.nvim**](https://github.com/figsoda/nix-develop.nvim) (⭐ 26) - Run `nix develop` without restarting neovim
+- [**nix-init**](https://github.com/nix-community/nix-init) (⭐ 373) - Generate Nix packages from URLs with hash prefetching, dependency inference, license detection, and more
+- [**fenix**](https://github.com/nix-community/fenix) (⭐ 319) - Rust toolchains and rust-analyzer nightly for Nix
+- [**nurl**](https://github.com/nix-community/nurl) (⭐ 193) - Generate Nix fetcher calls from repository URLs
+- [**haumea**](https://github.com/nix-community/haumea) (⭐ 70) - Filesystem-based module system for Nix
+- [**mmtc**](https://github.com/figsoda/mmtc) (⭐ 57) - Minimal mpd terminal client that aims to be simple yet highly configurable
+- [**cfg**](https://github.com/figsoda/cfg) (⭐ 40) - My NixOS configuration featuring awesome and neovim
+- [**namaka**](https://github.com/nix-community/namaka) (⭐ 36) - Snapshot testing tool for Nix based on haumea
+- [**nix-develop.nvim**](https://github.com/figsoda/nix-develop.nvim) (⭐ 27) - Run `nix develop` without restarting neovim
 - [**patsh**](https://github.com/nix-community/patsh) (⭐ 25) - A command-line tool for patching shell scripts inspired by resholve
-- [**namaka**](https://github.com/nix-community/namaka) (⭐ 24) - Snapshot testing tool for Nix based on haumea
-- [**pep-508**](https://github.com/figsoda/pep-508) (⭐ 15) - Rust implementation of Python dependency parser for PEP 508
+- [**pep-508**](https://github.com/figsoda/pep-508) (⭐ 16) - Rust implementation of Python dependency parser for PEP 508
 - [**pactorio**](https://github.com/figsoda/pactorio) (⭐ 7) - Mod packager for Factorio
 - [**sagoin**](https://github.com/figsoda/sagoin) (⭐ 6) - A command-line submission tool for the UMD CS Submit Server
-- [**pkgs**](https://github.com/figsoda/pkgs) (⭐ 5) - My nix packages that don't fit in nixpkgs
 
 #### Projects I maintain
 
-- [**nixpkgs**](https://github.com/nixos/nixpkgs) (⭐ 11850) - Nix Packages collection
-- [**ouch**](https://github.com/ouch-org/ouch) (⭐ 1321) - Painless compression and decompression for your terminal
+- [**nixpkgs**](https://github.com/nixos/nixpkgs) (⭐ 11960) - Nix Packages collection
+- [**ouch**](https://github.com/ouch-org/ouch) (⭐ 1351) - Painless compression and decompression for your terminal
 - [**nixpkgs-review**](https://github.com/mic92/nixpkgs-review) (⭐ 239) - Review pull-requests on https://github.com/NixOS/nixpkgs
-- [**nix-update**](https://github.com/mic92/nix-update) (⭐ 185) - Swiss-knife for updating nix packages.
+- [**nix-update**](https://github.com/mic92/nix-update) (⭐ 193) - Swiss-knife for updating nix packages.
 
 <table>
   <tr align="center">
@@ -42,32 +41,32 @@
       </tr>
       <tr>
         <td>Stargazers</td>
-        <td>1107</td>
+        <td>1187</td>
       </tr>
       <tr>
         <td>Forks</td>
-        <td>40</td>
+        <td>41</td>
       </tr>
       <tr>
         <td>Contributed to</td>
-        <td>94</td>
+        <td>96</td>
       </tr>
       <tr>
         <td>Commits</td>
-        <td>14912</td>
+        <td>15226</td>
       </tr>
       <tr>
         <td>Issues</td>
-        <td>117</td>
+        <td>118</td>
       </tr>
       <tr>
         <td>Pull requests</td>
-        <td>1451</td>
+        <td>1533</td>
       </tr>
       <tr>
         <td>Followers</td>
         <td><a href="https://github.com/figsoda?tab=followers">
-          67
+          71
         </a></td>
       </tr>
       <tr>
@@ -77,11 +76,11 @@
         </a></td>
       </tr>
     </table></td>
-    <td><table><tr><td>Rust</td><td>60.14%</td></tr><tr><td>Nix</td><td>16.37%</td></tr><tr><td>Lua</td><td>14.98%</td></tr><tr><td>Python</td><td>2.31%</td></tr><tr><td>Haskell</td><td>1.48%</td></tr><tr><td>Shell</td><td>1.08%</td></tr><tr><td>ANTLR</td><td>0.74%</td></tr><tr><td>OCaml</td><td>0.6%</td></tr><tr><td>Yacc</td><td>0.56%</td></tr><tr><td>Vim Script</td><td>0.44%</td></tr></table></td>
+    <td><table><tr><td>Rust</td><td>60.13%</td></tr><tr><td>Nix</td><td>16.59%</td></tr><tr><td>Lua</td><td>14.84%</td></tr><tr><td>Python</td><td>2.29%</td></tr><tr><td>Haskell</td><td>1.47%</td></tr><tr><td>Shell</td><td>1.07%</td></tr><tr><td>ANTLR</td><td>0.73%</td></tr><tr><td>OCaml</td><td>0.6%</td></tr><tr><td>Yacc</td><td>0.55%</td></tr><tr><td>Vim Script</td><td>0.44%</td></tr></table></td>
   </tr>
 </table>
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-figsoda-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/figsoda)
 [![Liberapay](https://img.shields.io/badge/Liberapay-figsoda-f6c915?style=flat-square&logo=liberapay)](https://liberapay.com/figsoda)
 
-<sub>Last updated: 2023-04-11 15:15:21 UTC</sub>
+<sub>Last updated: 2023-04-25 22:13:31 UTC</sub>
