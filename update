@@ -18,6 +18,7 @@ created = [
     ("nix-community", "haumea"),
     ("nix-community", "namaka"),
     ("nix-community", "nix-init"),
+    ("nix-community", "nix-melt"),
     ("nix-community", "nurl"),
     ("nix-community", "patsh"),
 ]
