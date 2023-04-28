@@ -139,7 +139,7 @@ def add_repos(repos):
 
 readme = "#### Projects I created\n\n"
 add_repos(created)
-readme += "\n#### Projects I maintain\n\n"
+readme += "\n#### Projects I help maintain\n\n"
 add_repos(maintain)
 
 readme += f"""
