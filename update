@@ -11,7 +11,6 @@ created = [
     ("figsoda", "cfg"),
     ("figsoda", "mmtc"),
     ("figsoda", "nix-develop.nvim"),
-    ("figsoda", "pactorio"),
     ("figsoda", "pep-508"),
     ("figsoda", "sagoin"),
     ("nix-community", "fenix"),
