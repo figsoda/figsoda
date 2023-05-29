@@ -13,6 +13,7 @@ created = [
     ("figsoda", "nix-develop.nvim"),
     ("figsoda", "pep-508"),
     ("figsoda", "sagoin"),
+    ("figsoda", "utf8"),
     ("nix-community", "fenix"),
     ("nix-community", "haumea"),
     ("nix-community", "namaka"),
