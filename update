@@ -26,6 +26,7 @@ created = [
 maintain = [
     ("mic92", "nix-update"),
     ("mic92", "nixpkgs-review"),
+    ("nix-community", "nix-index"),
     ("nixos", "nixpkgs"),
     ("ouch-org", "ouch"),
 ]
