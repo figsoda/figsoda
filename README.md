@@ -17,7 +17,7 @@
 
 #### Projects I help maintain
 
-- [**nixpkgs**](https://github.com/nixos/nixpkgs) (⭐ 12935) - Nix Packages collection & NixOS
+- [**nixpkgs**](https://github.com/nixos/nixpkgs) (⭐ 12936) - Nix Packages collection & NixOS
 - [**ouch**](https://github.com/ouch-org/ouch) (⭐ 1542) - Painless compression and decompression for your terminal
 - [**nix-index**](https://github.com/nix-community/nix-index) (⭐ 559) - Quickly locate nix packages with specific files
 - [**nixpkgs-review**](https://github.com/mic92/nixpkgs-review) (⭐ 263) - Review pull-requests on https://github.com/NixOS/nixpkgs
@@ -33,7 +33,7 @@
       <tr>
         <td>Repositories</td>
         <td><a href="https://github.com/figsoda?tab=repositories">
-          39
+          38
         </a></td>
       </tr>
       <tr>
@@ -56,7 +56,7 @@
       </tr>
       <tr>
         <td>Commits</td>
-        <td>25119</td>
+        <td>25121</td>
       </tr>
       <tr>
         <td>Issues</td>
@@ -64,7 +64,7 @@
       </tr>
       <tr>
         <td>Pull requests</td>
-        <td>2502</td>
+        <td>2503</td>
       </tr>
       <tr>
         <td>Followers</td>
@@ -86,4 +86,4 @@
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-figsoda-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/figsoda)
 [![Liberapay](https://img.shields.io/badge/Liberapay-figsoda-f6c915?style=flat-square&logo=liberapay)](https://liberapay.com/figsoda)
 
-<sub>Last updated: 2023-08-24 19:10:34 UTC</sub>
+<sub>Last updated: 2023-08-24 19:54:30 UTC</sub>
