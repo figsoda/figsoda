@@ -14,7 +14,6 @@ created = [
     ("figsoda", "pep-508"),
     ("figsoda", "sagoin"),
     ("figsoda", "utf8"),
-    ("figsoda", "zon2nix"),
     ("nix-community", "fenix"),
     ("nix-community", "haumea"),
     ("nix-community", "namaka"),
@@ -22,6 +21,7 @@ created = [
     ("nix-community", "nix-melt"),
     ("nix-community", "nurl"),
     ("nix-community", "patsh"),
+    ("nix-community", "zon2nix"),
 ]
 
 maintain = [
