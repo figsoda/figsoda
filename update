@@ -9,6 +9,7 @@ from urllib.request import Request, urlopen
 
 created = [
     ("figsoda", "cfg"),
+    ("figsoda", "drowse"),
     ("figsoda", "mmtc"),
     ("figsoda", "nix-develop.nvim"),
     ("figsoda", "pep-508"),
