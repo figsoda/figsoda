@@ -14,10 +14,11 @@
 - [**patsh**](https://github.com/nix-community/patsh) (⭐ 52) - A command-line tool for patching shell scripts inspired by resholve
 - [**pep-508**](https://github.com/figsoda/pep-508) (⭐ 24) - Rust implementation of Python dependency parser for PEP 508
 - [**sagoin**](https://github.com/figsoda/sagoin) (⭐ 8) - A command-line submission tool for the UMD CS Submit Server
+- [**drowse**](https://github.com/figsoda/drowse) (⭐ 0) - Nix dynamic derivations made easy
 
 #### Projects I help maintain
 
-- [**nixpkgs**](https://github.com/nixos/nixpkgs) (⭐ 23547) - Nix Packages collection & NixOS
+- [**nixpkgs**](https://github.com/nixos/nixpkgs) (⭐ 23552) - Nix Packages collection & NixOS
 - [**ouch**](https://github.com/ouch-org/ouch) (⭐ 3388) - Painless compression and decompression in the terminal
 - [**nix-index**](https://github.com/nix-community/nix-index) (⭐ 1187) - Quickly locate nix packages with specific files
 - [**nix-update**](https://github.com/mic92/nix-update) (⭐ 722) - Swiss-knife for updating nix packages.
@@ -56,7 +57,7 @@
       </tr>
       <tr>
         <td>Commits</td>
-        <td>104303</td>
+        <td>104309</td>
       </tr>
       <tr>
         <td>Issues</td>
@@ -79,11 +80,11 @@
         </a></td>
       </tr>
     </table></td>
-    <td><table><tr><td>Rust</td><td>57.08%</td></tr><tr><td>Nix</td><td>20.97%</td></tr><tr><td>Lua</td><td>9.94%</td></tr><tr><td>Zig</td><td>4.37%</td></tr><tr><td>Python</td><td>1.9%</td></tr><tr><td>Haskell</td><td>1.21%</td></tr><tr><td>Shell</td><td>0.83%</td></tr><tr><td>ANTLR</td><td>0.6%</td></tr><tr><td>OCaml</td><td>0.49%</td></tr><tr><td>Yacc</td><td>0.45%</td></tr></table></td>
+    <td><table><tr><td>Rust</td><td>56.92%</td></tr><tr><td>Nix</td><td>21.2%</td></tr><tr><td>Lua</td><td>9.91%</td></tr><tr><td>Zig</td><td>4.36%</td></tr><tr><td>Python</td><td>1.9%</td></tr><tr><td>Haskell</td><td>1.21%</td></tr><tr><td>Shell</td><td>0.82%</td></tr><tr><td>ANTLR</td><td>0.6%</td></tr><tr><td>OCaml</td><td>0.49%</td></tr><tr><td>Yacc</td><td>0.45%</td></tr></table></td>
   </tr>
 </table>
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-figsoda-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/figsoda)
 [![Liberapay](https://img.shields.io/badge/Liberapay-figsoda-f6c915?style=flat-square&logo=liberapay)](https://liberapay.com/figsoda)
 
-<sub>Last updated: 2026-02-21 21:59:20 UTC</sub>
+<sub>Last updated: 2026-02-22 04:49:48 UTC</sub>
