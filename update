@@ -3,7 +3,7 @@
 import json
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from itertools import chain
 from urllib.request import Request, urlopen
 
@@ -213,7 +213,7 @@ readme += f"""</table></td>
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-figsoda-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/figsoda)
 [![Liberapay](https://img.shields.io/badge/Liberapay-figsoda-f6c915?style=flat-square&logo=liberapay)](https://liberapay.com/figsoda)
 
-<sub>Last updated: {datetime.utcnow().strftime("%F %T")} UTC</sub>
+<sub>Last updated: {datetime.now(timezone.utc).strftime("%F %T")} UTC</sub>
 """
 
 open("README.md", "w").write(readme)
