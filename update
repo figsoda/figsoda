@@ -12,6 +12,7 @@ created = [
     ("figsoda", "drowse"),
     ("figsoda", "mmtc"),
     ("figsoda", "nix-develop.nvim"),
+    ("figsoda", "unnix"),
     ("figsoda", "utf8"),
     ("nix-community", "fenix"),
     ("nix-community", "haumea"),
