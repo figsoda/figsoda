@@ -136,7 +136,7 @@ def add_repos(repos):
         if owner == "nix-community":
             description = regex.sub(r"\1", description)
 
-        readme += f"- [**{repo}**](https://github.com/{owner}/{repo}) (★ {repo_data['stargazerCount']}) - {description}\n"
+        readme += f"- [**{repo}**](https://github.com/{owner}/{repo}) ★{repo_data['stargazerCount']} - {description}\n"
 
 
 readme = "#### Projects I created\n\n"
