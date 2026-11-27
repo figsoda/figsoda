@@ -1,13 +1,13 @@
 #### Projects I created
 
 - [**nix-init**](https://github.com/nix-community/nix-init) ★1503 - Generate Nix packages from URLs with hash prefetching, dependency inference, license detection, and more
-- [**fenix**](https://github.com/nix-community/fenix) ★1144 - Rust toolchains and rust-analyzer nightly for Nix
+- [**fenix**](https://github.com/nix-community/fenix) ★1146 - Rust toolchains and rust-analyzer nightly for Nix
 - [**nurl**](https://github.com/nix-community/nurl) ★807 - Generate Nix fetcher calls from URLs
 - [**haumea**](https://github.com/nix-community/haumea) ★421 - Filesystem-based module system for Nix
 - [**nix-melt**](https://github.com/nix-community/nix-melt) ★316 - A ranger-like flake.lock viewer
 - [**namaka**](https://github.com/nix-community/namaka) ★145 - Snapshot testing for Nix based on haumea
 - [**zon2nix**](https://github.com/nix-community/zon2nix) ★128 - Convert the dependencies in `build.zig.zon` to a Nix expression
-- [**drowse**](https://github.com/figsoda/drowse) ★112 - Nix dynamic derivations made easy
+- [**drowse**](https://github.com/figsoda/drowse) ★113 - Nix dynamic derivations made easy
 - [**unnix**](https://github.com/figsoda/unnix) ★109 - Reproducible Nix environments without installing Nix
 - [**mmtc**](https://github.com/figsoda/mmtc) ★99 - Minimal mpd terminal client that aims to be simple yet highly configurable
 - [**cfg**](https://github.com/figsoda/cfg) ★86 - My NixOS configuration featuring niri and neovim
@@ -17,10 +17,10 @@
 
 #### Projects I help maintain
 
-- [**nixpkgs**](https://github.com/nixos/nixpkgs) ★26962 - Nix Packages collection & NixOS
-- [**ouch**](https://github.com/ouch-org/ouch) ★3870 - Painless compression and decompression in the terminal
-- [**nix-index**](https://github.com/nixos/nix-index) ★1379 - Quickly locate nix packages with specific files [maintainers=@Mic92 @bennofs @figsoda @raitobezarius @r-vdp @samestep]
-- [**nix-update**](https://github.com/mic92/nix-update) ★918 - Swiss-knife for updating nix packages.
+- [**nixpkgs**](https://github.com/nixos/nixpkgs) ★26986 - Nix Packages collection & NixOS
+- [**ouch**](https://github.com/ouch-org/ouch) ★3876 - Painless compression and decompression in the terminal
+- [**nix-index**](https://github.com/nixos/nix-index) ★1379 - Quickly locate nix packages with specific files
+- [**nix-update**](https://github.com/mic92/nix-update) ★919 - Swiss-knife for updating nix packages.
 - [**nixpkgs-review**](https://github.com/mic92/nixpkgs-review) ★651 - Review pull-requests on https://github.com/NixOS/nixpkgs
 
 <table>
@@ -44,7 +44,7 @@
       </tr>
       <tr>
         <td>Stargazers</td>
-        <td>5239</td>
+        <td>5242</td>
       </tr>
       <tr>
         <td>Forks</td>
@@ -56,7 +56,7 @@
       </tr>
       <tr>
         <td>Commits</td>
-        <td>163204</td>
+        <td>163208</td>
       </tr>
       <tr>
         <td>Issues</td>
@@ -79,8 +79,8 @@
         </a></td>
       </tr>
     </table></td>
-    <td><table><tr><td>Rust</td><td>60.14%</td></tr><tr><td>Nix</td><td>20.91%</td></tr><tr><td>Lua</td><td>8.4%</td></tr><tr><td>Zig</td><td>3.71%</td></tr><tr><td>Python</td><td>1.75%</td></tr><tr><td>Haskell</td><td>1.03%</td></tr><tr><td>Shell</td><td>0.93%</td></tr><tr><td>ANTLR</td><td>0.51%</td></tr><tr><td>OCaml</td><td>0.42%</td></tr><tr><td>Yacc</td><td>0.38%</td></tr></table></td>
+    <td><table><tr><td>Rust</td><td>60.14%</td></tr><tr><td>Nix</td><td>20.92%</td></tr><tr><td>Lua</td><td>8.4%</td></tr><tr><td>Zig</td><td>3.71%</td></tr><tr><td>Python</td><td>1.74%</td></tr><tr><td>Haskell</td><td>1.03%</td></tr><tr><td>Shell</td><td>0.93%</td></tr><tr><td>ANTLR</td><td>0.51%</td></tr><tr><td>OCaml</td><td>0.42%</td></tr><tr><td>Yacc</td><td>0.38%</td></tr></table></td>
   </tr>
 </table>
 
-<sub>Last updated: 2026-11-27 02:16:44 UTC</sub>
+<sub>Last updated: 2026-11-28 15:59:30 UTC</sub>
