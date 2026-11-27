@@ -17,9 +17,9 @@
 
 #### Projects I help maintain
 
-- [**nixpkgs**](https://github.com/nixos/nixpkgs) ★26960 - Nix Packages collection & NixOS
+- [**nixpkgs**](https://github.com/nixos/nixpkgs) ★26962 - Nix Packages collection & NixOS
 - [**ouch**](https://github.com/ouch-org/ouch) ★3870 - Painless compression and decompression in the terminal
-- [**nix-index**](https://github.com/nix-community/nix-index) ★1379 - Quickly locate nix packages with specific files
+- [**nix-index**](https://github.com/nixos/nix-index) ★1379 - Quickly locate nix packages with specific files [maintainers=@Mic92 @bennofs @figsoda @raitobezarius @r-vdp @samestep]
 - [**nix-update**](https://github.com/mic92/nix-update) ★918 - Swiss-knife for updating nix packages.
 - [**nixpkgs-review**](https://github.com/mic92/nixpkgs-review) ★651 - Review pull-requests on https://github.com/NixOS/nixpkgs
 
@@ -83,4 +83,4 @@
   </tr>
 </table>
 
-<sub>Last updated: 2026-11-26 22:50:56 UTC</sub>
+<sub>Last updated: 2026-11-27 02:16:44 UTC</sub>
