@@ -131,11 +131,7 @@ def add_repos(repos):
         reverse=True,
     ):
         repo_data = data[repo.replace("-", "_").replace(".", "_")]
-        description = repo_data["description"]
-
-        if owner == "nix-community":
-            description = regex.sub(r"\1", description)
-
+        description = regex.sub(r"\1", repo_data["description"])
         readme += f"- [**{repo}**](https://github.com/{owner}/{repo}) ★{repo_data['stargazerCount']} - {description}\n"
 
 
